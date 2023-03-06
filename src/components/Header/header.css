@@ -1,0 +1,32 @@
+.header {
+  flex: 0.1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  transition: 1s;
+}
+.header h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  color: #000000;
+  text-shadow: 20px 20px 22px rgba(0, 0, 0, 0.2);
+}
+
+.header .footer__container-line {
+  background-color: rgb(0, 0, 0);
+  margin: 1rem 0;
+}
+/* media query */
+@media screen and (max-width: 768px) {
+  .header {
+    flex: 0.2;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+  }
+}
